@@ -5,3 +5,4 @@ basePage\PageObject.class
 pages\AccountPage.class
 pages\GmailHomePage.class
 basePage\PageObject$1.class
+aboutPages\AppsOnGoogle.class

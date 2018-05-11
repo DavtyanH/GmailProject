@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="46868" started-at="2018-05-11T07:38:46Z" finished-at="2018-05-11T07:39:32Z">
+  <suite name="Suite" duration-ms="69800" started-at="2018-05-11T17:18:44Z" finished-at="2018-05-11T17:19:54Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="46868" started-at="2018-05-11T07:38:46Z" finished-at="2018-05-11T07:39:32Z">
+    <test name="Test1" duration-ms="69800" started-at="2018-05-11T17:18:44Z" finished-at="2018-05-11T17:19:54Z">
       <class name="gmail.GmailTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="setup" is-config="true" duration-ms="8961" started-at="2018-05-11T11:38:46Z" finished-at="2018-05-11T11:38:54Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="setup" is-config="true" duration-ms="13158" started-at="2018-05-11T21:18:44Z" finished-at="2018-05-11T21:18:57Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="firstTest()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="firstTest" duration-ms="37358" started-at="2018-05-11T11:38:54Z" finished-at="2018-05-11T11:39:32Z">
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="firstTest" duration-ms="56079" started-at="2018-05-11T21:18:57Z" finished-at="2018-05-11T21:19:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="tearDown" is-config="true" duration-ms="523" started-at="2018-05-11T11:39:32Z" finished-at="2018-05-11T11:39:32Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="tearDown" is-config="true" duration-ms="530" started-at="2018-05-11T21:19:53Z" finished-at="2018-05-11T21:19:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
