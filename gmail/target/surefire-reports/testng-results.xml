@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46868" started-at="2018-05-11T07:38:46Z" finished-at="2018-05-11T07:39:32Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="46868" started-at="2018-05-11T07:38:46Z" finished-at="2018-05-11T07:39:32Z">
+      <class name="gmail.GmailTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="setup" is-config="true" duration-ms="8961" started-at="2018-05-11T11:38:46Z" finished-at="2018-05-11T11:38:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="firstTest()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="firstTest" duration-ms="37358" started-at="2018-05-11T11:38:54Z" finished-at="2018-05-11T11:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gmail.GmailTest@1dd3bcd]" name="tearDown" is-config="true" duration-ms="523" started-at="2018-05-11T11:39:32Z" finished-at="2018-05-11T11:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gmail.GmailTest -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
