@@ -1,8 +1,10 @@
 pages\GoogleHomePage.class
 pages\GmailPasswordPage.class
 pages\GmailSingInPage.class
+forWork\ForWorkPage.class
 basePage\PageObject.class
 pages\AccountPage.class
 pages\GmailHomePage.class
 basePage\PageObject$1.class
 aboutPages\AppsOnGoogle.class
+accountPages\CreateAccount.class

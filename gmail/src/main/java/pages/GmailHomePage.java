@@ -18,4 +18,6 @@ public class GmailHomePage extends PageObject {
 			email.click();
 			return  new GmailSingInPage(driver);
 		}
+	
 }
+

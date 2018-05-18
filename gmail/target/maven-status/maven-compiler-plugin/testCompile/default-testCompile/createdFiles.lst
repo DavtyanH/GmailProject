@@ -1,3 +1,5 @@
-gmail\AboutTest.class
 util\FunctionalTestBase.class
+gmail\ForWorkTest.class
 gmail\GmailTest.class
+gmail\AboutTest.class
+gmail\NewAccountTest.class

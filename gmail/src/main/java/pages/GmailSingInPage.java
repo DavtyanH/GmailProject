@@ -11,9 +11,13 @@ public class GmailSingInPage extends PageObject {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
+//public static final String atpath="//div[h1='Welcome']";
+//@FindBy(xpath=atpath)
+	 WebElement ext;
 	 @FindBy(xpath="//input[@type=\"email\"]")
 	 WebElement email;
-	 @FindBy(xpath="//div[@id='identifierNext']")
+	 public static final String nextpath="//div[@id='identifierNext']";
+	 @FindBy(xpath= nextpath)
 	 WebElement next;	
 	 /*public static void wait_time(int seconds){
 	        try {
@@ -23,9 +27,10 @@ public class GmailSingInPage extends PageObject {
 	                e.printStackTrace();
 	            }
 	        }*/
-	public GmailPasswordPage login() throws InterruptedException { 
-		email.sendKeys("qa.test.page7@gmail.com");
+	public GmailPasswordPage login()throws InterruptedException { 
+		email.sendKeys("qa.test.page7@gmail.com");		
 		next.click();
+//isElementPresent(atpath);		
 		//wait_time(10);
 		Thread.sleep(3000);
 	return new GmailPasswordPage(driver);

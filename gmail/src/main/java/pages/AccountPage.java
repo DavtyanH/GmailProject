@@ -16,7 +16,7 @@ public class AccountPage extends PageObject{
 WebElement account;
 @FindBy(xpath="//a[@id='gb_71']")
 WebElement singOut;
-GmailSingInPage wait =new GmailSingInPage(driver);
+//GmailSingInPage wait =new GmailSingInPage(driver);
 public void out() throws InterruptedException {
 	account.click();
 	singOut.click();

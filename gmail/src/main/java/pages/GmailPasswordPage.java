@@ -16,7 +16,7 @@ public class GmailPasswordPage extends PageObject {
 	 WebElement pass;
 	 @FindBy(xpath="//div[@id='passwordNext']")
 	 WebElement next;
-	 GmailSingInPage wait =new GmailSingInPage(driver);
+	 //GmailSingInPage wait =new GmailSingInPage(driver);
 	public AccountPage password() throws InterruptedException{
 		pass.click();
 		pass.sendKeys("test.page777");
