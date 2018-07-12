@@ -12,17 +12,23 @@ public class AccountPage extends PageObject{
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-@FindBy(xpath="//a[contains(@title,'Google Account')]")
+	private final String accountxpath="//a[contains(@title,'Google Account')]";
+@FindBy(xpath=accountxpath)
 WebElement account;
 @FindBy(xpath="//a[@id='gb_71']")
 WebElement singOut;
-//GmailSingInPage wait =new GmailSingInPage(driver);
-public void out() throws InterruptedException {
+
+public void out()  {
+	waitForElementPresent(accountxpath);
 	account.click();
 	singOut.click();
 	driver.close();
-	//wait.wait_time(20);
-	Thread.sleep(3000);
 	
+}
+@FindBy(xpath="//div[text()='COMPOSE']")
+WebElement creat;
+public MassegePage compose() {
+	creat.click();
+	return new MassegePage(driver);	
 }
 }

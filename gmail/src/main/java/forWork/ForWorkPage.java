@@ -12,12 +12,10 @@ public class ForWorkPage extends PageObject{
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-@FindBy(xpath="//div[@class='dot boost loaded']")
-WebElement dot;
-public void dotButton()throws InterruptedException {
-	dot.click();
-	dot.click();
-	Thread.sleep(3000);
+@FindBy(xpath="//a[@href='https://www.facebook.com/Gmail']")
+WebElement fb;
+public void facebook() {
+	fb.click();
 }
 
 }

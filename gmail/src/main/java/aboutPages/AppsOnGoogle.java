@@ -13,11 +13,10 @@ public class AppsOnGoogle extends PageObject{
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	@FindBy(xpath="//ul//a[contains(@href,'https://play.google.com/apps')]")
+	@FindBy(xpath="//a[contains(@href,'https://play.google.com/store/apps')]//span[text()='Apps']")
 	 WebElement apps;
-	public GmailSingInPage myApss() throws InterruptedException{
+	public GmailSingInPage myApss() {
 		apps.click();
-		Thread.sleep(7000);
 		return new GmailSingInPage(driver);
 		
 	}
