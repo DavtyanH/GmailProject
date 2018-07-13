@@ -15,7 +15,8 @@ public class GmailHomePage extends PageObject {
 		super(driver);
 		// TODO Auto-generated constructor stub
 	}
-	 @FindBy(xpath="//img[contains(@src,'/gmail/about/images/playstore.png')]")
+	// @FindBy(xpath="//img[contains(@src,'/gmail/about/images/playstore.png')]")
+	@FindBy(xpath="//a[@href='https://play.google.com/store/apps/details?id=com.google.android.gm&referrer=utm_source%3Dweb_about']")
 	 WebElement googlePlay;
 	public AppsOnGoogle apss() {
 		//element.click();

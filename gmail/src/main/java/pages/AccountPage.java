@@ -27,8 +27,8 @@ public void out()  {
 }
 @FindBy(xpath="//div[text()='COMPOSE']")
 WebElement creat;
-public MassegePage compose() {
+public MessagePage compose() {
 	creat.click();
-	return new MassegePage(driver);	
+	return new MessagePage(driver);	
 }
 }

@@ -1,5 +1,6 @@
 pages\GoogleHomePage.class
 pages\GmailPasswordPage.class
+pages\MassegePage.class
 pages\GmailSingInPage.class
 forWork\ForWorkPage.class
 basePage\PageObject.class

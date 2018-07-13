@@ -22,12 +22,13 @@ public class AboutTest extends FunctionalTestBase {
 	 String findelement2="SIGN IN";
 	Assert.assertEquals(findelement1, "Gmail");
 	Assert.assertEquals(findelement2, "SIGN IN");
-		AppsOnGoogle appsgoogle =gmailHomePage.apss();
-		
-		String findelement3="Google";
+		//AppsOnGoogle appsgoogle =gmailHomePage.apss();
+	gmailHomePage.apss();
+	AppsOnGoogle appsgoogle=new AppsOnGoogle(driver);
+		/*String findelement3="Google";
 		String findelement4="Sign in";
 		Assert.assertEquals(findelement3, "Google");
-		Assert.assertEquals(findelement4, "Sign in");
+		Assert.assertEquals(findelement4, "Sign in");*/
     GmailSingInPage singInPage =appsgoogle.myApss();
     
     /*String findelement5="Google";

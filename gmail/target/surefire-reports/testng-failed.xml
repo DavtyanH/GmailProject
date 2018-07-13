@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
-  <test name="Test2(failed)">
+  <test name="Test1(failed)">
     <classes>
-      <class name="gmail.AboutTest">
+      <class name="gmail.GmailTest">
         <methods>
           <include name="setup"/>
-          <include name="secondTest"/>
+          <include name="tearDown"/>
+          <include name="firstTest"/>
         </methods>
-      </class> <!-- gmail.AboutTest -->
+      </class> <!-- gmail.GmailTest -->
     </classes>
-  </test> <!-- Test2(failed) -->
+  </test> <!-- Test1(failed) -->
 </suite> <!-- Failed suite [Suite] -->
