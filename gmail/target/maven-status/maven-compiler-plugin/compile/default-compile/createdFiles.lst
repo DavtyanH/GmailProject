@@ -1,9 +1,10 @@
 pages\GoogleHomePage.class
 pages\GmailPasswordPage.class
-pages\MassegePage.class
 pages\GmailSingInPage.class
+pages\MessagePage.class
 forWork\ForWorkPage.class
 basePage\PageObject.class
+pages\SentMessage.class
 pages\AccountPage.class
 pages\GmailHomePage.class
 basePage\PageObject$1.class

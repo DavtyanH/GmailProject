@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="241601" started-at="2018-07-13T16:25:15Z" finished-at="2018-07-13T16:29:17Z">
+  <suite name="Suite" duration-ms="232268" started-at="2018-07-13T18:52:08Z" finished-at="2018-07-13T18:56:00Z">
     <groups>
     </groups>
-    <test name="Test1" duration-ms="241601" started-at="2018-07-13T16:25:15Z" finished-at="2018-07-13T16:29:17Z">
+    <test name="Test1" duration-ms="232268" started-at="2018-07-13T18:52:08Z" finished-at="2018-07-13T18:56:00Z">
       <class name="gmail.GmailTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:gmail.GmailTest@60addb54]" name="setup" is-config="true" duration-ms="95623" started-at="2018-07-13T20:25:15Z" finished-at="2018-07-13T20:26:51Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:gmail.GmailTest@60addb54]" name="setup" is-config="true" duration-ms="110811" started-at="2018-07-13T22:52:08Z" finished-at="2018-07-13T22:53:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="firstTest()[pri:0, instance:gmail.GmailTest@60addb54]" name="firstTest" duration-ms="132412" started-at="2018-07-13T20:26:51Z" finished-at="2018-07-13T20:29:03Z">
+        <test-method status="FAIL" signature="firstTest()[pri:0, instance:gmail.GmailTest@60addb54]" name="firstTest" duration-ms="114423" started-at="2018-07-13T22:53:58Z" finished-at="2018-07-13T22:55:53Z">
           <exception class="org.openqa.selenium.TimeoutException">
             <message>
               <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //input[@type='password'] (tried for 10 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'DESKTOP-QQ0135N', ip: '192.168.43.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir2360_24226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 567b13e8e3aef012c7d94909266268fe]]>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir11412_9049}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b6e6b654cfeef17946bef8c2bc28fde2]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //input[@type='password'] (tried for 10 second(s) with 500 MILLISECONDS interval)
 Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
 System info: host: 'DESKTOP-QQ0135N', ip: '192.168.43.192', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir2360_24226}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
-Session ID: 567b13e8e3aef012c7d94909266268fe
+Capabilities [{applicationCacheEnabled=false, rotatable=false, mobileEmulationEnabled=false, networkConnectionEnabled=false, chrome={chromedriverVersion=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb), userDataDir=C:\Users\Admin\AppData\Local\Temp\scoped_dir11412_9049}, takesHeapSnapshot=true, pageLoadStrategy=normal, databaseEnabled=false, handlesAlerts=true, hasTouchScreen=false, version=67.0.3396.99, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=false, acceptInsecureCerts=false, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=}]
+Session ID: b6e6b654cfeef17946bef8c2bc28fde2
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:265)
 	at basePage.PageObject.waitForElementPresent(PageObject.java:30)
@@ -66,7 +66,7 @@ Session ID: 567b13e8e3aef012c7d94909266268fe
           <reporter-output>
           </reporter-output>
         </test-method> <!-- firstTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:gmail.GmailTest@60addb54]" name="tearDown" is-config="true" duration-ms="11126" started-at="2018-07-13T20:29:06Z" finished-at="2018-07-13T20:29:17Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gmail.GmailTest@60addb54]" name="tearDown" is-config="true" duration-ms="6592" started-at="2018-07-13T22:55:53Z" finished-at="2018-07-13T22:56:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

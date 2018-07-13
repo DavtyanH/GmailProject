@@ -31,4 +31,10 @@ public MessagePage compose() {
 	creat.click();
 	return new MessagePage(driver);	
 }
+@FindBy(xpath="//a[@href='https://mail.google.com/mail/#sent']")
+WebElement sent;
+public SentMessage sentSms() {
+	sent.click();
+	return new SentMessage(driver);	
+}
 }
